@@ -20,6 +20,7 @@ driver = webdriver.Chrome(service=service, options=options)
 
 driver.get("https://www.google.com/maps/place/East-West+Pub/@60.1990582,24.9378081,17z/data=!4m8!3m7!1s0x469209901ebb1ad3:0xd6ab54bd134e1f1f!8m2!3d60.1990582!4d24.940383!9m1!1b1!16s%2Fg%2F11ckkyrnfx?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D")
 
+time.sleep(500)
 # Wait for the "Accept all" button to appear (you might need to adjust this depending on Google's structure)
 try:
     # Wait until the cookies consent "Accept all" button is present and clickable
